@@ -79,7 +79,7 @@ app.use('/blooddonationbackend', Route);
 
 // MongoDB connection
 mongoose
-  .connect('mongodb+srv://vks7633a:42QMW3lvS9Tev70f@cluster0.otls6.mongodb.net/blooddonation')
+  .connect('')
   .then(() => {
     console.log('Connection established');
   })
